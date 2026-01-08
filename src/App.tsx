@@ -8,14 +8,14 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 
 // Import your actual pages
-import Index from "./Pages/Index";
-import About from "./Pages/About";
-import Services from "./Pages/Services";
-import Products from "./Pages/Products";
-import TQMS from "./Pages/TQMS";
-import Contact from "./Pages/Contact";
-import CompanyProfile from "./Pages/CompanyProfile";
-import NotFound from "./Pages/NotFound";
+import Index from "./pages/Index";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Products from "./pages/Products";
+import TQMS from "./pages/TQMS";
+import Contact from "./pages/Contact";
+import CompanyProfile from "./pages/CompanyProfile";
+import NotFound from "./pages/NotFound";
 
 // React Query client
 const queryClient = new QueryClient();
